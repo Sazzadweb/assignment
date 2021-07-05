@@ -80,3 +80,20 @@ h1 {
     font-weight: bold;
     
 }
+.recipies{
+    text-align: center;
+    color:gray;
+}
+
+.recipie-item{
+
+    display: flex;
+}
+.recipe-title img{
+  width: 60%;
+}
+.bd img{
+    width: 54%;
+    height: 58%;
+    border-radius: 10px;
+}
