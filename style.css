@@ -1,44 +1,82 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    
-}
-h1{
-    font-size: 50px;
-    padding-left:35px;
-    padding-top: 40px;
-    margin-left: 40px;
+    margin: 0;
 
 }
-.half-width-pragraph{
+
+h1 {
+    font-size: 50px;
+    padding-left: 35px;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+.food-world {
+    display: flex;
+
+}
+.food-world-img {
+    background-image: url(img/background/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width-pragraph {
     margin-left: 70px;
     padding-top: 5px;
-   
+
 }
-.food-world{
-    display: flex;
-   
-}
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.half-width img{
+
+.half-width img {
     width: 60%;
     padding-left: 30px;
 }
 
-.order-button{
+.order-button {
     text-decoration: none;
+    margin-left: 70px;
     padding: 13px 26px;
     background: linear-gradient(#ff512f, #dd2476);
     border-radius: 17px;
-    text-align: center;
     color: whitesmoke;
-    margin-left: 70px;
 }
-.food-world{
-    background-image: url(img/background/Frame\ 59.jpg);
-    background-repeat:no-repeat ;
-    background-size:cover;
+.about-me{
+    display: flex;
+}
+.about-me-img{
+  background-image: url(img/background/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.about{
+    width: 50%;
+}
+.about img{
+    width: 90%;
+    padding-left: 40px;
+}
+#heading{
+    font-size: 35px; 
+    color: darkgrey;
+    margin-left:0px
+}
+.about-me-pragraph{
+    width: 60%;
+    padding:30px;
+    margin-left 30px; 
+
+}
+
+.contact-button{
+    padding: 13px 26px;
+    background-image: linear-gradient(#63a4ff  , #83eaf1 );
+    text-decoration: none;
+    border-radius: 17px;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
     
 }
