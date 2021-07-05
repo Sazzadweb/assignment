@@ -1,0 +1,36 @@
+body{
+    font-family: 'Merriweather', serif;
+    
+}
+h1{
+    font-size: 50px;
+    padding-left:35px;
+    padding-top: 40px;
+    margin-left: 40px;
+
+}
+.half-width-pragraph{
+    margin-left: 70px;
+    padding-top: 5px;
+   
+}
+.food-world{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 30px;
+}
+
+.order-button{
+    text-decoration: none;
+    padding: 13px 26px;
+    background: linear-gradient(#ff512f, #dd2476);
+    border-radius: 17px;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 70px;
+}
