@@ -44,6 +44,7 @@ h1 {
     background: linear-gradient(#ff512f, #dd2476);
     border-radius: 17px;
     color: whitesmoke;
+    margin-bottom: 200px;
 }
 
 .about-me {
@@ -123,6 +124,18 @@ h1 {
 
 .recipie p {
     text-align: justify;
+}
+
+.form{
+    text-align: center;
+    height: 280px;
+    width: 320px;
+    background-color: rgb(252, 239, 224);
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px grey;
+    margin-left: 600px;
+    margin-top: 40px;
+     
 }
 
 .fan-section {
