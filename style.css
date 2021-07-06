@@ -85,15 +85,69 @@ h1 {
     color:gray;
 }
 
-.recipie-item{
+.recipie{
+    display:flex;
+    margin-left: 190px;
+}
 
+.recipe-item{
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 15px gray;
+
+  
+}
+.recipie img{
+    width: 305px;
+    margin-top: 8px;
+    display: block;    
+    
+}
+.recipie h4{
+    text-align: left;
+    
+}
+.recipie p{
+    text-align: justify;
+}
+
+.fan-section{
+    margin-top: 100px;
     display: flex;
+    margin-left: 225px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px grey;
+    width: 1035px;
+    border-radius: 20px;
 }
-.recipe-title img{
-  width: 60%;
+.fan-section h2{
+    font-size: 30px;
+    margin-left: 155px;
 }
-.bd img{
-    width: 54%;
-    height: 58%;
-    border-radius: 10px;
+.fan-section p{
+    margin-left: 155px;
 }
+footer{
+    margin-top: 80px;
+    background-color: rgb(12, 12, 12);
+    color: blanchedalmond;
+    text-align: center;
+
+}
+
+.end-footer h1{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.end-footer p{
+    display: block;
+    padding-left: 60px;
+    margin-block-start:2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
